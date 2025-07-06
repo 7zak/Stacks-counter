@@ -1,0 +1,85 @@
+[network]
+name = "devnet"
+node_rpc_address = "http://localhost:20443"
+deployment_fee_rate = 10
+
+[accounts.deployer]
+mnemonic = "twice kind fence tip hidden tilt action fragile skin nothing glory cousin green tomorrow spring wrist shed math olympic multiply hip blue scout claw"
+balance = 100_000_000_000_000
+# STB44HYPYAT2BB2QE513NSP81HTMYWBJP02HPGK6
+
+[accounts.wallet_1]
+mnemonic = "sell invite acquire kitten bamboo drastic jelly vivid peace spawn twice guilt pave pen trash pretty park cube fragile unaware remain midnight betray rebuild"
+balance = 100_000_000_000_000
+# ST11NJTTKGVT6D1HY4NJRVQWMQM7TVAR091EJ8P2Y
+
+[accounts.wallet_2]
+mnemonic = "hold excess usual excess ring elephant install account glad dry fragile donkey gaze humble truck breeze nation gasp vacuum limb head keep delay hospital"
+balance = 100_000_000_000_000
+# ST1HB1T8WRNBYB0Y3T7WXZS38NKKPTBR3EG9EPJKR
+
+[accounts.wallet_3]
+mnemonic = "cycle puppy glare enroll cost improve round trend wrist mushroom prime crater oppose divert carrot jaw era wire debate current moral arm auction center"
+balance = 100_000_000_000_000
+# STRN5SSP7RRX57YCBD33WTVX9T2Q7MLG1A6T7G4A
+
+[accounts.wallet_4]
+mnemonic = "board list obtain sugar hour worth raven scout denial thunder horse logic fury scorpion fold genuine phrase wealth news aim below celery when cabin"
+balance = 100_000_000_000_000
+# ST2CY5V39NHDPWSXMW9QDT3HC3GD6Q6XX4CFRK9AG
+
+[accounts.wallet_5]
+mnemonic = "anchor border keen hug gear donate cut guard coconut bacon fill emerge turtle dove arrange market brand bicycle mass oak color language pluck smart"
+balance = 100_000_000_000_000
+# ST2JHG361ZXG51QTKY2NQCVBPPRRE2KZB1HR05NNC
+
+[accounts.wallet_6]
+mnemonic = "lazy panel flee dog current will tenant credit spray achieve geometry wonder strategy junk beef museum danger awesome alpha ancient column two push lamp"
+balance = 100_000_000_000_000
+# ST2NEB84ASENDXKYGJPQW86YXQCEFEX2ZQPG87ND
+
+[accounts.wallet_7]
+mnemonic = "city base quit fault seed deal staff legend city base quit fault seed deal staff legend city base quit fault seed deal staff legend"
+balance = 100_000_000_000_000
+# ST2REHHS5J3CERCRBEPMGH7921Q6PYKAADT7JP2VB
+
+[accounts.wallet_8]
+mnemonic = "female adjust gallery certain visit token during great side clown fitness like hurt clip knife warm bench start reunion globe detail dream depend fortune"
+balance = 100_000_000_000_000
+# ST3AM1A56AK2C1XAFJ4115ZSV26EB49BVQ10MGCS0
+
+[accounts.wallet_9]
+mnemonic = "shadow private easily thought say logic fault paddle word top book during ignore notable orange flight clock image wealth health outside kitten belt reform"
+balance = 100_000_000_000_000
+# ST3PF13W7Z0RRM42A8VZRVFQ75SV1K26RXEP8YGKJ
+
+[devnet]
+disable_bitcoin_explorer = true
+# bitcoin_node_p2p_address = "bitcoind:18444"
+# bitcoin_node_rpc_address = "bitcoind:18443"
+# bitcoin_node_username = "devnet"
+# bitcoin_node_password = "devnet"
+# bitcoin_controller_block_time = 30_000
+working_dir = "tmp/devnet"
+use_docker_gateway_routing = true
+
+[[devnet.pox_stacking_orders]]
+start_at_cycle = 3
+duration = 12
+wallet = "wallet_1"
+slots = 2
+btc_address = "mr1iPkD9N3RJZZxXRk7xF9d36gffa6exNC"
+
+[[devnet.pox_stacking_orders]]
+start_at_cycle = 3
+duration = 12
+wallet = "wallet_2"
+slots = 1
+btc_address = "muYdXKmX9bByAueDe6KFfHd5Ff1gdN9ErG"
+
+[[devnet.pox_stacking_orders]]
+start_at_cycle = 3
+duration = 12
+wallet = "wallet_3"
+slots = 1
+btc_address = "mvZtbibDAAA3WLpY7zXXFqRa3T4XSknBX7"
