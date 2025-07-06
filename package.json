@@ -1,0 +1,37 @@
+{
+  "name": "stacks-counter",
+  "version": "1.0.0",
+  "description": "A simple counter smart contract for the Stacks blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "clarinet test",
+    "check": "clarinet check",
+    "console": "clarinet console",
+    "integrate": "clarinet integrate",
+    "deploy:devnet": "clarinet deploy --devnet",
+    "deploy:testnet": "clarinet deploy --testnet",
+    "deploy:mainnet": "clarinet deploy --mainnet"
+  },
+  "keywords": [
+    "stacks",
+    "clarity",
+    "smart-contract",
+    "blockchain",
+    "counter",
+    "bitcoin"
+  ],
+  "author": "Abdulrazak malik <hexchange001@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/7zak/Stacks-counter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/7zak/Stacks-counter/issues"
+  },
+  "homepage": "https://github.com/7zak/Stacks-counter#readme",
+  "devDependencies": {
+    "@stacks/transactions": "^6.0.0",
+    "@stacks/network": "^6.0.0"
+  }
+}
